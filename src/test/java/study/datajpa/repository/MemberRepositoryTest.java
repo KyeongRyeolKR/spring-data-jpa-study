@@ -19,6 +19,7 @@ class MemberRepositoryTest {
 
     @Test
     public void testMember() {
+        System.out.println("memberRepository = " + memberRepository);
 
         Member member = new Member("memberA");
 
